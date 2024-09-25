@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<link rel="stylesheet" type="text/css" href="css/pjm.css">
+	<title>Formulario</title>
+    <style>
+        body{
+            background-color: #fae5d3;
+        }
+    </style>
+</head>
+<body>
+	<header>
+		<h1>Restaurant Author's Cuisine</h1>
+	</header>
+	<nav>
+		<a href="index.html">Pagina Inicial</a><br>
+		<a href="for.html">Formulario</a><br>
+		<a href="rece.html">Mis recetas</a><br>
+		<a href="des.html">Desarolladores</a>
+	</nav>
+	
+	<h1>Formulario</h1>
+    <table align="center">
+        <td width="20%">
+        <form class="menu-form" action="mailto:sofiaanaf191@gmail.com" method="POST">
+    	   <div class="form-group">
+                <label for="nombre">Nombre del Cliente:</label>
+                <input type="text" id="nombre" required>
+            </div>
+
+            <div class="form-group">
+                <label for="plato">Selecciona un Plato:</label>
+                <select id="plato" required>
+                    <option value="">Seleccione...</option>
+                    <option value="pozole">Pozole-$55</option>
+                    <option value="menudo">Menudo-$55</option>
+                    <option value="tamales">Tamales-$20</option>
+                    <option value="carne">Carne Asada-$100</option>
+                    <option value="gorditas">Gorditas-$20</option>
+                    <option value="cocido">Cocido-$55</option>
+                    <option value="elotes">Coctel de Elotes-$45</option>
+                    <option value="entomatadas">Entomatadas-$30</option>
+                    <option value="barbacoa">Tacos de Barbacoa-$45</option>
+                    <option value="pollo">Pollo Asado-$60</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="cantidad">Cantidad a Tomar:</label>
+                <input type="number" id="cantidad" min="1" required>
+            </div>
+
+            <div class="form-group">
+                <label for="bebida">Selecciona una Bebida:</label>
+                    <select id="bebida" required>
+                        <option value="">Seleccione...</option>
+                        <option value="agua">Agua-$15</option>
+                        <option value="refresco">Refresco-$25</option>
+                        <option value="cerveza">Cerveza-$50</option>
+                        <option value="vino">Vino-$50</option>
+                    </select>
+            </div>
+
+            <div class="form-group">
+                <label for="cantidad">Cantidad a Tomar:</label>
+                <input type="number" id="cantidad" min="1" required>
+            </div>
+
+            <div class="form-group">
+                <label for="postre">Selecciona un Postre:</label>
+                    <select id="postre" required>
+                        <option value="">Seleccione...</option>
+                        <option value="helado">Helado-$25</option>
+                        <option value="pastel">Pastel-$25</option>
+                        <option value="galletas">Galletas-$20</option>
+                        <option value="flan">Flan-$25</option>
+                        <option value="pye">Pay de Limon-$25</option>
+                    </select>
+            </div>
+
+            <div class="form-group">
+                <label for="cantidad">Cantidad a Tomar:</label>
+                <input type="number" id="cantidad" min="1" required>
+            </div>
+
+            <div class="form-group">
+                <label for="pago">Tipo de Pago:</label>
+                    <select id="pago" required>
+                        <option value="">Seleccione...</option>
+                        <option value="efectivo">Efectivo</option>
+                        <option value="tarjeta">Tarjeta</option>
+                        <option value="transferencia">Transferencia</option>
+                    </select>
+            </div>
+
+            <div class="form-group">
+                <label for="fecha">Fecha:</label>
+                <input type="date" id="fecha" required>
+            </div>
+
+             <button type="reset">Borrar</button>
+             <button type="submit">Enviar</button>
+        </td>
+        </form>    
+    </table> 
+        <footer>
+        <p>Recetario 2024 - Todos los derechos reservados</p>
+        <p>MURRIETA ROMERO NA SOFIA</p>
+        <p>CBTIS 206 - PROGRAMACION 5A</p>
+    </footer>
+</body>
+</html>
